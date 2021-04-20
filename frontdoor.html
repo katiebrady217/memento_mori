@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Front Door</title>
+    <link rel="stylesheet" href="default.css">
+  </head>
+
+  <body>
+    <a class="exit" href="startpage.html">EXIT</a>
+    <audio control autoplay src="sounds/Creakydoor.mp3" id="doorSound">
+        Your browser does not support the audio element.
+    </audio>
+    <button onclick="document.getElementById('doorSound').play();">Play</button>
+    <button onclick="document.getElementById('musicSound').pause();">Pause</button>
+    <main class="storytext">
+
+    <p>You grasp the heavy golden handle, it is warm to the touch despite the bite of frost that lingers in the air from a winter that refuses to release its grip just yet.
+      The door creaks open at the slightest push.
+    </p>
+
+    <p>It knows to let you in. That the time has come
+      You feel the bitter chill rush through the grand entry hall up the staircase. Your hand trails up the sweeping bannisters until they curve off at the landing.
+      Great stained glass windows flood the space with blue tinted moonlight. Two flights branch off to the left and right. The left is covered in a thick layer of dust, untouched for months.
+      More likely years. The steps to the right are lit with soft glowing sconces, beckoning you up with warm candlelight. A luxury not seen in any other corner of the house.
+    </p>
+
+    </main>
+
+    <ul class="nav">
+      <li class="story-option"><a href="leftstairs.html">Go Left</a></li>
+      <li class="story-option"><a href="rightstairs.html">Go Right</a></li>
+    </ul>
+
+  </body>
+</html>

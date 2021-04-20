@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The House</title>
+    <link rel="stylesheet" href="pg1.css">
+  </head>
+  <body>
+    <!--Exit Button-->
+  <a class="exit" href="startpage.html">EXIT</a>
+    <!--Placeholder for page image-->
+    <div class="background"></div>
+    <!--Audio file for sound effects/music-->
+    <audio control autoplay src="sounds/Turning Page.mp3" id="pageSound">
+        Your browser does not support the audio element.
+    </audio>
+    <!-- Buttons for controlloong duration of the sound-->
+    <button onclick="document.getElementById('pageSound').play();">Play</button>
+    <button onclick="document.getElementById('musicSound').pause();">Pause</button>
+
+    <h2 class="header">It watches you.</h2>
+
+    <main class="storytext">
+
+    <p>This old powerful structure looms tall and imposing imprinted against the night sky.
+      It seems as deeply rooted as the oak trees that surrounds it. These centuries old guardians bow toward the manor as a mother would protecting her newborn babe.
+      Shielding it from those who wish to harm. Who wish to disturb whatever hollow, forged peace was created in this ancient space.
+      Yet the house itself stood long before the trees were seeds thrown by the wind.
+    </p>
+
+    <p>You could still turn back here.</p>
+
+    <p>You can feel the shift in the air as you press your advance towards it.
+        The manor taunts you like a cruel older brother, daring you to take the next few steps, leaning into that feeling of dread.
+        One foot in front of another until your toes brush the front door step.
+    </p>
+  </main>
+
+    <!--Story Options Buttons-->
+    <ul class="nav">
+      <li class="story-opition"><a href="frontdoor.html">Front Door</a></li>
+      <li class="story-opition"><a href="window.html">Window</a></li>
+      <li class="story-opition"><a href="sidedoor.html">Side Door</a></li>
+    </ul>
+
+  </body>
+</html>

@@ -1,0 +1,58 @@
+body, html {
+  height: 100%;
+  background-color: #FFF4D6;
+}
+.background{
+  background-image: url("pics/library.jpg");/*Photo by Suzy Hazelwood from Pexels*/
+  height: 100%;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.exit{
+  display: inline-block;
+  background-color: #273722;
+  box-shadow: 0 5px 0 #10160E;
+  color: cornsilk;
+  padding: 1em 1em;
+  position: relative;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.storytext{
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Georgia', serif;
+}
+
+.nav {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  }
+
+  a {
+    background-color: #3B851B;
+    box-shadow: 0 5px 0 #33641E;
+    color: cornsilk;
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  a:hover {
+    background-color: #3A7322;
+  }
+
+  a:active {
+    box-shadow: none;
+    top: 5px;
+  }
